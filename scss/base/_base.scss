@@ -1,0 +1,40 @@
+// 
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--gray-text-color);
+    letter-spacing: 0.03em;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.list {
+    list-style: none;
+}
+
+.text-gray {
+    color: var(--gray-text-color);
+}
+
+.text-white {
+    color: var(--white-text-color);
+}
+
+.text-black {
+    color: var(--black-text-color);
+}
+
+.item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}

@@ -1,0 +1,73 @@
+.footer {
+    background-color: var(--black-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-follow {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--white-heade-color);
+}
+
+.footer .networks-link .link {
+    color: var(--white-heade-color);
+    background-color: var(--gray-footer-icons);
+}
+.container-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.footer-form {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.footer-content:last-child {
+    margin-left: auto;
+}
+
+.footer-label {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footer-input {
+    width: 358px;
+    border-radius: 4px;
+    padding: 15px 16px;
+    margin-right: 12px;
+    background-color: transparent;
+    color: var(--white-text-color);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+}
+.footer .logo-link {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footer-container {
+    display: flex;
+    gap: 70px;
+    align-items: baseline;
+}
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.check-box {
+    display: flex;
+    justify-content: center;
+}

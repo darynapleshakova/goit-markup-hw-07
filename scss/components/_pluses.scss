@@ -1,0 +1,14 @@
+.pluses {
+    display: flex;
+    border-radius: 4px;
+    height: 120px;
+    background-color: var(--gray-batton-color);
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pluses .icons {
+    width: 70px;
+    height: 70px;
+}

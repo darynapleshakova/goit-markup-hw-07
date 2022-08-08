@@ -1,0 +1,50 @@
+.networks-list {
+  display: flex;
+  fill: currentColor;
+
+
+}
+.networks-title {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.networks-link .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--networks-icons);
+  background-color: var(--gray-footer-icons);
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  transition: color var(--transition), background-color var(--transition);
+}
+
+.networks-list .networks-link:not(:last-child),
+.footer-networks-list .networks-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.networks-link .link:hover,
+.networks-link .link:focus {
+  color: var(--white-logo-color);
+  background-color: var(--blue-batton-color);
+}
+
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--gray-text-color);
+  margin-bottom: 16px;
+}
+
+.client-icons,
+.networks-icons {
+  fill: currentColor;
+}

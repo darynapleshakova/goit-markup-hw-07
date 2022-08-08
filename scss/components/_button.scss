@@ -1,0 +1,86 @@
+.button-close-modal {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: var(--white-logo-color);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    transition: fill var(--transition);
+
+
+}
+.button-close-modal:hover,
+.button-close-modal:focus {
+    fill: var(--blue-batton-modal-color);
+}
+
+.hero-batton {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    color: var(--white-text-color);
+    cursor: pointer;
+    background-color: var(--blue-batton-color);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px 32px;
+    min-width: 200px;
+    justify-content: center;
+    transition: background-color var(--transition);
+
+}
+
+.hero-batton:hover,
+.hero-batton:focus {
+    background-color: var(--blue-batton-modal-color);
+
+}
+
+.main-batton {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--black-text-color);
+    cursor: pointer;
+    background-color: var(--gray-batton-color);
+    border: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+    align-items: center;
+    text-align: center;
+    transition: color var(--transition), background-color var(--transition), box-shadow var(--transition);
+}
+
+.main-batton:hover,
+.main-batton:focus,
+.all {
+    background-color: var(--blue-batton-color);
+    color: var(--white-text-color);
+    box-shadow: var(--box-shadow-btn);
+
+}
+.icon-button {
+    margin-left: 10px;
+
+}
+.list-battom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,26 @@
+.client-item .link {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: var(--networks-icons);
+    border: 1px solid currentColor;
+    padding: 16px 30px;
+    border-radius: 4px;
+    transition: color var(--transition), border var(--transition);
+}
+
+.сlient-list {
+    flex-basis: calc(100% / 6 - 30px);
+}
+
+.client-icons,
+.networks-icons {
+    fill: currentColor;
+
+}
+
+.client-item .link:hover,
+.client-item .link:focus {
+    color: var(--blue-batton-color);
+
+}

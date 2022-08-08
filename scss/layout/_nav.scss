@@ -1,0 +1,69 @@
+.nav {
+    display: flex;
+    align-items: center;
+    color: var(--black-text-color);
+}
+
+ .nav-link:focus,
+ .nav-link:hover,
+.current {
+    color: var(--blue-logo-color);
+
+}
+
+.container-nav {
+    display: flex;
+}
+.container-adress {
+    display: flex;
+}
+.adress {
+    font-style: inherit;
+    color: var(--grayb-footer-color);
+}
+
+.site-adress {
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+}
+
+.link-adress {
+    transition: color var(--transition);
+
+}
+
+.link-adress:hover,
+.link-adress:focus {
+    color: var(--blue-logo-color);
+}
+
+.mail-icons {
+    height: 12px;
+    width: 16px;
+}
+
+.tel-icons {
+    height: 16px;
+    width: 10px;
+}
+
+.site-adress .icons {
+    fill: currentColor;
+    align-self: center;
+    margin-right: 10px;
+}
+
+.site-nav_list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.nav-link,
+.header .link-adress {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    transition: color var(--transition);
+}
